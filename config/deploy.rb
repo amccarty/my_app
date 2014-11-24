@@ -9,7 +9,7 @@ set :repo_url, 'git@github.com:amccarty/my_app.git'
 
 # Default deploy_to directory is /var/www/my_app
 # set :deploy_to, '/var/www/my_app'
-set :deploy_to, '/cul/web/alanprod.library.cornell.edu/htdocs/rails'
+set :deploy_to, '/cul/web/alanprod16.library.cornell.edu/htdocs/rails'
 # Default value for :scm is :git
 set :scm, :git
 
