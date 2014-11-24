@@ -40,6 +40,6 @@ end
 
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
-
+gem 'capistrano-ext'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
