@@ -29,7 +29,7 @@ set :ssh_options, {
     keys: %w(/home/jenkins/.ssh/id_rsa),
     forward_agent: true,
 #    auth_methods: %w(password)
-#  }
+  }
 #
 # And/or per server (overrides global)
 # ------------------------------------
