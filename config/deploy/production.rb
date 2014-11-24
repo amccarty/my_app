@@ -26,7 +26,7 @@ server 'alanprod16.library.cornell.edu', user: 'jenkins', roles: %w{web app}, my
 # Global options
 # --------------
 set :ssh_options, {
-    keys: %w(/home/jenkins/.ssh/id_rsa),
+    keys: %w(/users/jenkins/.ssh/id_rsa),
     forward_agent: true,
 #    auth_methods: %w(password)
   }
